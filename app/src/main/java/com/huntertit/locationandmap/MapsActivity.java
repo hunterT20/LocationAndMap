@@ -41,6 +41,6 @@ public class MapsActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.frmContent,new BlankFragment()).commit();
+        getFragmentManager().beginTransaction().replace(R.id.frmContent,new BlankFragment()).commit();
     }
 }
